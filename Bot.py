@@ -3,7 +3,7 @@ import asyncio
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 bot_token = '8121617099:AAEElu6a7F3JeSLJBKT7emtl5hg6tcWv8JM'
-github_url = 'YOUR_GITHUB_PAGES_URL'  # अपनी GitHub Pages URL यहाँ डालें
+github_url = 'https://github.com/Shivamparashar23/Telegram-bot-hosting-/tree/main'  # अपनी GitHub Pages URL यहाँ डालें
 
 async def start(update, context):
     keyboard = [[InlineKeyboardButton("Open HTML", url=github_url)]]
